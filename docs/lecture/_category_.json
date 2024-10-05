@@ -1,0 +1,8 @@
+{
+  "label": "Lecture",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Course lectures"
+  }
+}
