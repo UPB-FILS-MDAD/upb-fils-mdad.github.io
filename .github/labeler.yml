@@ -1,11 +1,11 @@
-cours:
-  - docs/cours/**/*
+lecture:
+  - docs/lecture/**/*
 
-tp:
-  - docs/tp/**/*
+lab:
+  - docs/lab/**/*
 
-devoir:
-  - docs/devoir/**/*
+project:
+  - docs/project/**/*
 
 workflow:
   - .github/**/*
@@ -13,6 +13,6 @@ workflow:
 website:
   - src/**/*
   - static/**/*
-  - '*.js'
-  - '*.json'
-  - '*.ts'
+  - "*.js"
+  - "*.json"
+  - "*.ts"
