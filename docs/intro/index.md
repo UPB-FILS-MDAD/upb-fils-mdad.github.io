@@ -9,78 +9,64 @@ Welcome to *Mobile Device Application Development*.
 
 Throughout this course you will learn how to develop applications for Android.
 
-## Équipe
+## Team
+import AmaliaSimion from './images/amalia_simion.jpg';
+import IrinaBradu from './images/irina_bradu.jpg';
 
 <table>
 <tr valign="top">
 <td>
-**Alexandru Radovici**
-![Alexandru Radovici](images/alexandru_radovici.jpg)
 
-Professeur de cours \
-GitHub: [alexandruradovici](https://github.com/alexandruradovici) \
-alexandru.radovici@upb.ro
-</td>
 
-<td>
-**Mihai Costin**
-![Mihai Costin](images/mihai_costin.jpg)
-
-Professeur de TP \
-GitHub: [mihaicostin34](https://github.com/mihaicostin34) \
-mihai.costin@stud.fils.upb.ro
-</td>
-
-<td>
 **Amalia Simion**
-![Amalia Simion](images/amalia_simion.jpg)
 
-Responsable des devoirs \
+<img src={AmaliaSimion} height="250" alt="Amalia Simion"/>
+
 GitHub: [CAmi307](https://github.com/CAmi307) \
 amalia.simion@stud.fils.upb.ro
+</td>
+
+<td>
+**Irina Bradu**
+
+<img src={IrinaBradu} height="250" alt="Irina Bradu"/>
+
+GitHub: [irina-b-dev](https://github.com/irina-b-dev) \
+irina.bradu@stud.fils.upb.ro
 </td>
 </tr>
 </table>
 
 ## Timetable
 
-| Activité | Goupe | Jour | Heure | Salle |
-|----------|-------|------|-------|-------|
-| Cours | *tous les étudiants* | Jeudi | 10 - 12 | PR002 |
-| TP | 1220A sous-groupe 2 | Mardi | 8 - 10 | EG 306 |
-| TP | 1220A sous-groupe 1 | Mardi | 10 - 12 | EG 306 |
-| TP | 1220B sous-groupe 2 | Mardi | 8 - 10 | EG 306 |
-| TP | 1220B sous-groupe 1 | Mardi | 10 - 12 | EG 306 |
+| Activity | Group | Week | Day | Hour | Classroom |
+|----------|-------|------|-----|------|-----------|
+| Cours | *all groups* | every week | Monday | 10 - 12 | AN024 |
+| Lab | 1231EA subgroup 1 | odd| Tuesday | 8 - 10 | JA 001A |
+| Lab | 1231EA subgroup 2 | even | Tuesday | 10 - 12 | JA 001A |
+| Lab | 1231EB subgroup 1 | odd | Tuesday | 8 - 10 | JA 001A |
+| Lab | 1231EB subgroup 2 | even | Tuesday | 10 - 12 | JA 001A |
 
 ## Grading
 
-| Partie | Description | Points |
+| Part | Description | Points |
 |--------|-------------|--------|
-| Tests de cours | Vous passerez un test au début de chaque cours avec des questions sue le cours précédent. | 2p |
-| Tests de TP | Vous passerez un test au début de chaque laboratoire avec des questions sur le TP précédent. | 3p |
-| Devoirs | Vous aurez 4 devoirs. | 8p |
-| Examen | L'examen au dernier cours. | 2p |
-| **Total** | *Vous avez besoin de 4,5 points pour réussir le cours.* | **15p** |
+| Tests | You will have to take a quiz at the beggining of every 2nd course. The quiz will contain questions from the previous courses and labs | 10p |
+| Project | In each lab, you will have to contribute to your project, using what you learned in the lab. In the last week, you will present your projects | 40p |
+| Exam | The exam will be in the last course | 50p |
+| **Total** | *You will need at least 45 points to pass the subject* | **100p** |
 
 ## Rules
 
-1. Vous pouvez vous absenter sans motivation pendant un maximum de 2 TPs.
-2. Les TPs **NE PEUVENT PAS ÊTRE RÉCUPÉRÉS**
-3. Vous pouvez motiver l’absence aux TP (motif médical) dans maximum 2 semaines de la date de votre absence
-4. Chaque étudiant doit venir avec son groupe au TP, s'il y a des problèmes vous devez annoncer en avance.
-5. Vous pouvez être en retard de 10 minutes maximum au TP
-6. Les étudiants qui rattrapent la matière peuvent participer aux TPs seulement s'il y a des places libres. Afin d'obtenir des points, ils doivent résoudre des devoirs et passer l'examen final
-7. Vous aurez besoin d'un compte [github](https://www.github.com) avec votre nom complet et une vraie photo de profil.
-8. Pour 2 devoirs copiés (d'autres collègues ou des étudiants des années passées), vous allez échouer la matière
-9. Vous avez besoin d'au moins 4.5 points pour réussir l'examen
+1. You can miss a maximum of 1 lab
+2. The labs **CANNOT BE RECOVERED**
+3. You can justify your absence from labs (only for medical reasons) within a maximum of 2 weeks from the date of your absence.
+4. Each student must come to the lab of his group, if there are any problems you must announce the teacher in advance.
+5. You can be up to 10 minutes late for the lab
+6. You will need a [github](https://www.github.com) account with your full name and a real profile picture.
+7. The project will be checked for plagiarism. If your project is plagiarized, you fail the subject.
+8. You need at least 4.5 points to pass the exam
 
-## Bibliographie
+## Bibliography
 
-
-1. **Keith Cooper, Linda Torczon**, *Engineering a Compiler*
-2. **Terence Parr**, *The Definitive ANTLR 4 Reference*, 2nd Edition
-3. **Rick Battagline**, *The Art of WebAssembly, Build Secure, Portable, High-Performance Applications*
-4. **Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman**, *Compilers: Principles, Techniques, and Tools (2nd Edition)*
-5. **John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman**, *Introduction to Automata Theory, Languages, and Computation, 3rd Edition*
-6. **Andrew Tanenbaum**, *Modern Operating Systems (4th Edition)*
-7. **Kotlin Documentation**, *Get started with Kotlin* [lien](https://kotlinlang.org/docs/getting-started.html)
+1. **Kotlin Documentation**, *Get started with Kotlin* [lien](https://kotlinlang.org/docs/getting-started.html)

@@ -9,25 +9,23 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-  {
-    title: 'Langage de programmation',
-    Svg: require('@site/static/img/language_logo.svg').default,
-    description: (
-      <>
-        Ce cours vous aidera à en apprendre davantage sur le fonctionnement des langages de programmation.
+  // {
+  //   title: 'Langage de programmation',
+  //   Svg: require('@site/static/img/language_logo.svg').default,
+  //   description: (
+  //     <>
+  //       Ce cours vous aidera à en apprendre davantage sur le fonctionnement des langages de programmation.
 
-        Concevez et écrivez votre propre langage de programmation et votre propre compilateur.
-      </>
-    ),
-  },
+  //       Concevez et écrivez votre propre langage de programmation et votre propre compilateur.
+  //     </>
+  //   ),
+  // },
   {
-    title: 'WebAssembly',
-    Svg: require('@site/static/img/wasm_logo.svg').default,
+    title: 'Android',
+    Svg: require('@site/static/img/android-logo.svg').default,
     description: (
       <>
-        Écrivez un compilateur pour votre langage de programmation afin de générer du code 
-        pour WebAssembly (WASM), le nouveau bytecode standard de VM utilisé 
-        dans chaque navigateur et exécuteur d'application portable.
+        This course will teach you how to build you own Android application.
       </>
     ),
   },
@@ -36,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/kotlin_logo.svg').default,
     description: (
       <>
-        Utilisez vos compétences Java et apprenez Kotlin, l'un des langages de programmation les plus utilisés.
+        Use the knowledge you have in Java and learn Kotlin, one of the most used programming languages.
       </>
     ),
   },

@@ -3,12 +3,12 @@ sidebar_position: 1
 slug: /tp/00
 ---
 
-# 00 - Introduction en Kotlin
+# 00 - Introduction to Kotlin
 
 ## Pourquoi Kotlin?
 Kotlin est un langage moderne de programmation qui offre beaucoup de mécanismes pour assurer la sécurité du code, aussi qu’une syntaxe facile.
 
-Kotlin offre la possibilité de développement sur plusieurs platformes, étant compatible avec le JVM. Au même temps, toute bibliothèque en Java peut être utilisée dans un programme écrit en Kotlin. L’inverse est aussi vrai. À cause de tout cela, on considère qu’apprendre ce langage peut vous aider aussi à l’avenir, pour vos projets futurs. 
+Kotlin offre la possibilité de développement sur plusieurs platformes, étant compatible avec le JVM. Au même temps, toute bibliothèque en Java peut être utilisée dans un programme écrit en Kotlin. L’inverse est aussi vrai. À cause de tout cela, on considère qu’apprendre ce langage peut vous aider aussi à l’avenir, pour vos projets futurs.
 
 ## Syntaxe de base
 Pour commencer à apprendre Kotlin, on vous prie de suivre toutes les chapitres du tutoriel suivant: [Tour de Kotlin](https://kotlinlang.org/docs/kotlin-tour-welcome.html).

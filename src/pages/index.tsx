@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Commencer
+            Let's start
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-    title={`Bienvenue à ${siteConfig.title}`}
-    description="Le site du cours Automates, Langages Formels et Compilateurs de la Faculté d'Ingénierie des Langues Étrangères de l'UNSTPB.">
+    title={`Welcome to ${siteConfig.title}`}
+    description="The site of the Mobile Device Application Development course of the Faculty of Foreign Languages ​​Engineering of UNSTPB.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

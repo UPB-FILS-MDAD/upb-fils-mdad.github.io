@@ -7,7 +7,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const config: Config = {
   title: "Mobile Device Application Development",
-  tagline: "How do develop Android and Embedded Applications",
+  tagline: "How to develop Android and Embedded Applications",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -71,17 +71,17 @@ const config: Config = {
   ],
   themeConfig: {
     // Replace with your project's social card
-    image: "img/alf-social-card.png",
+    image: "img/android-logo.jpg",
     navbar: {
       title: "Mobile Device Application Development",
       logo: {
         alt: "Mobile Device Application Development",
-        src: "img/logo.png",
+        src: "img/android-logo.jpg",
       },
       items: [
         { to: "/docs/category/lecture", label: "Lecture", position: "left" },
-        { to: "/docs/category/lab", label: "Lab", position: "left" },
-        { to: "/docs/category/project", label: "Project", position: "left" },
+        // { to: "/docs/category/lab", label: "Lab", position: "left" },
+        // { to: "/docs/category/project", label: "Project", position: "left" },
         {
           href: "https://github.com/UPB-FILS-alf/upb-fils-mdad.github.io",
           label: "GitHub",
@@ -99,14 +99,14 @@ const config: Config = {
               label: "Lecture",
               to: "/docs/category/lecture",
             },
-            {
-              label: "Lab",
-              to: "/docs/category/lab",
-            },
-            {
-              label: "Project",
-              to: "/docs/category/project",
-            },
+            // {
+            //   label: "Lab",
+            //   to: "/docs/category/lab",
+            // },
+            // {
+            //   label: "Project",
+            //   to: "/docs/category/project",
+            // },
           ],
         },
         {
