@@ -65,8 +65,8 @@ irina.bradu@stud.fils.upb.ro
 5. You can be up to 10 minutes late for the lab
 6. You will need a [github](https://www.github.com) account with your full name and a real profile picture.
 7. The project will be checked for plagiarism. If your project is plagiarized, you fail the subject.
-8. You need at least 4.5 points to pass the exam
+8. You need at least 45 points to pass the subject
 
 ## Bibliography
 
-1. **Kotlin Documentation**, *Get started with Kotlin* [lien](https://kotlinlang.org/docs/getting-started.html)
+1. **Kotlin Documentation**, *Get started with Kotlin* [link](https://kotlinlang.org/docs/getting-started.html)

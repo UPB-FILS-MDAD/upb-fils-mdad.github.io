@@ -80,7 +80,7 @@ const config: Config = {
       },
       items: [
         { to: "/docs/category/lecture", label: "Lecture", position: "left" },
-        // { to: "/docs/category/lab", label: "Lab", position: "left" },
+        { to: "/docs/category/lab", label: "Lab", position: "left" },
         // { to: "/docs/category/project", label: "Project", position: "left" },
         {
           href: "https://github.com/UPB-FILS-alf/upb-fils-mdad.github.io",
@@ -99,10 +99,10 @@ const config: Config = {
               label: "Lecture",
               to: "/docs/category/lecture",
             },
-            // {
-            //   label: "Lab",
-            //   to: "/docs/category/lab",
-            // },
+            {
+              label: "Lab",
+              to: "/docs/category/lab",
+            },
             // {
             //   label: "Project",
             //   to: "/docs/category/project",
