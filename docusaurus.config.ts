@@ -43,7 +43,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/UPB-FILS-MDAD/upb-fils-mdad.github.io/edit/main",
+            "https://github.com/UPB-FILS-MDAD/upb-fils-mdad.github.io",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -83,7 +83,7 @@ const config: Config = {
         { to: "/docs/category/lab", label: "Lab", position: "left" },
         // { to: "/docs/category/project", label: "Project", position: "left" },
         {
-          href: "https://github.com/UPB-FILS-alf/upb-fils-mdad.github.io",
+          href: "https://github.com/UPB-FILS-MDAD/upb-fils-mdad.github.io",
           label: "GitHub",
           position: "right",
         },
