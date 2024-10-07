@@ -7,7 +7,7 @@ slug: /tp/00
 ## Setup
 During the semester we will use the Android Studio IDE. For installing it please follow the [link](https://developer.android.com/studio) for downloading it.
 
-If ou want to solve the kotlin exercises without an IDE, use [Kotlin Playground](https://play.kotlinlang.org).
+If you want to solve the kotlin exercises without an IDE, use [Kotlin Playground](https://play.kotlinlang.org).
 
 ## Why Kotlin?
 Kotlin is a modern programming language that offers many mechanisms to ensure code security, as well as an easy syntax.
