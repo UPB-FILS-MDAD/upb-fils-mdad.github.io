@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /tp/00
+slug: /lab/00
 ---
 
 # 00 - Introduction to Kotlin and Android Studio
