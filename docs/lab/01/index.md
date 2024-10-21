@@ -5,6 +5,12 @@ slug: /lab/01
 
 # 01 - Layouts
 
+## <a href="https://developer.android.com/reference/android/view/View">View</a>
+
+This class represents the basic building block for user interface components. A View occupies a rectangular area on the screen and is responsible for drawing and event handling. Any other UI components (eg: buttons, text fields, etc) are extentions of the `View`.
+
+Views also respond to user actions. For instance, when a user taps a button (which is a View), the event is handled in the View. If you want to trigger something when the user taps a button, the View is also exposing listeners (callbacks) for such events.
+
 ## Layouts
 import LinearVSRelative from './images/linear_vs_relative.png';
 
@@ -189,6 +195,30 @@ findViewById<RadioButton>(R.id.radio_ninjas).setOnCheckedChangeListener { button
     Log.d("RADIO", "Ninjas is checked: $isChecked")
 }
 ````
+
+## Project structure
+
+import PS1 from "./images/project_structure1.png";
+import PS2 from "./images/project_structure2.png";
+
+<img src={PS1} height="450" alt="Logcat"/>
+<img src={PS2} height="450" alt="Logcat"/>
+
+
+- **app/**
+    - **src/**: The source code folder.
+        - **main/**: This is the main source set for your app. It contains both your Java/Kotlin code and resources.
+            - **java/**: Contains all the Kotlin or Java source files for your app. This is where your Activity, ViewModel, and other classes go.
+
+                Example: com.example.myapp.MainActivity.kt (for Kotlin) or MainActivity.java (for Java).
+            - **res/**: This directory contains all non-code resources (like images, layouts, strings, etc.). Subfolders include:
+                - **layout/**: XML files that define the layout of your activities and fragments (UI elements).
+
+                    Example: activity_main.xml
+                - **drawable/**: Image files (PNG, JPEG, SVG), vector drawables, and other graphics.
+                - **values/**: XML files that contain constant values like strings (strings.xml), dimensions (dimens.xml), colors (colors.xml), and styles (styles.xml).
+                - **mipmap/**: Contains launcher icons for different screen densities.
+            - **AndroidManifest.xml**: The manifest file that declares app components, permissions, and other app-wide configurations.
 
 ## Logs
 
