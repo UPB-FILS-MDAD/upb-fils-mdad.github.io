@@ -183,27 +183,18 @@ Intent filters based on three aspects:
 Using the initial project structure from [lab01](../01/index.md), add buttons for each of the follwing actions:
 
    In **MainActivity** 
-   1.  Start a new activity which displays the calculated bmi along with some useful tips.  
+   1.  Start a new activity which displays the calculated bmi along with some useful tips. (Calculate button)
    ![alt text](images/activities.png)
     
 
 In  **SecondActivity**
    
-   1. Share results as text to other apps.  
-   2. Redirect the user to webpage about bmi. 
-   :::info
-
-   You need to specify in the manifest file `<queries>`
-
-   :::
-   3. Starts a service that will download the following cheat sheet. 
-
-https://odphp.health.gov/sites/default/files/2021-05/DGA-FactSheet-2021-03-26-compressed.pdf
+   1. Share the BMI result as text to other apps, using an implicit intent. (share button)
+   2. Redirect the user to webpage about bmi.(info button)
 
 :::note
 
-- What type of Intent is used for each of the 4 buttons? (Implicit/Explicit)
-- What type of Action should you use for buttons 1 and 2 from the Second Activity?
+- What type of Intent is used for each of the 3 buttons? (Implicit/Explicit)
 
 :::
 
