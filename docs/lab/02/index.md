@@ -196,7 +196,7 @@ In  **SecondActivity**
    You need to specify in the manifest file `<queries>`
 
    :::
-   3. Starts a service that will download the following cheeat sheet. 
+   3. Starts a service that will download the following cheat sheet. 
 
 https://odphp.health.gov/sites/default/files/2021-05/DGA-FactSheet-2021-03-26-compressed.pdf
 
