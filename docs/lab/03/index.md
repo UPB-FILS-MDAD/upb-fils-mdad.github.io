@@ -16,9 +16,9 @@ In Android, services (e.g., Service) by default run on the main thread, so any l
 A service is simply a component that can run in the background, even when the user is not interacting with your application, so you should create a service only if that is what you need. For example, a thread in an activity would be more useful displaying data periodically or continuously in the UI.
 
 
-## The service lifcycle
+## The service lifecycle
 
-All services should extend the Service class. Depending on whether the service want to comunicate with other components the service can be bounded (data can be requested from the service) or unbounded. 
+All services extend the `Service` class. Depending on whether the service want to comunicate with other components the service can be bounded (data can be requested from the service) or unbounded. Below you have the the list of callback methods available in the `Service` class which define the service lifecycle.
 
 
 
