@@ -208,14 +208,14 @@ For structured data, you can use Room, a persistence library that provides an ab
 
 There are three major components in Room:
 
-*   The [database class](/reference/kotlin/androidx/room/Database) that holds the database and serves as the main access point for the underlying connection to your app's persisted data.
+*   The [database class](https://developer.android.com/reference/kotlin/androidx/room/Database) that holds the database and serves as the main access point for the underlying connection to your app's persisted data.
     ```kotlin
     @Database(entities = [User::class], version = 1)
     abstract class AppDatabase : RoomDatabase() {
         abstract fun userDao(): UserDao
     }
     ```
-*   [Data entities](/training/data-storage/room/defining-data) that represent tables in your app's database.
+*   [Data entities](https://developer.android.com/training/data-storage/room/defining-data) that represent tables in your app's database.
     ```kotlin
     @Entity
     data class User(
@@ -224,7 +224,7 @@ There are three major components in Room:
         @ColumnInfo(name = "last_name") val lastName: String?
     )
     ```
-*   [Data access objects (DAOs)](/training/data-storage/room/accessing-data) that provide methods that your app can use to query, update, insert, and delete data in the database.
+*   [Data access objects (DAOs)](https://developer.android.com/training/data-storage/room/accessing-data) that provide methods that your app can use to query, update, insert, and delete data in the database.
     ```kotlin
     @Dao
     interface UserDao {
