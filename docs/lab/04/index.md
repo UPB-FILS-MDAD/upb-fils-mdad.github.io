@@ -294,8 +294,8 @@ You also need to:
 
 Create an app with a MainActivity that does the following:
 
-1.  Usea a **sharedPreferences** to save a boolean which indicates which theme should be loaded when the app starts (Light or Dark). Use toggle button to swich between themes.
-2.  Create a 'student' table in a **room database** that has the following columns: `Name`, `Year`, `MeanGrade`. Insert a few entries in the database. And display them in the `MainActivity`
+1.  Usea a **sharedPreferences** to save a boolean which indicates which theme should be loaded when the app starts (Light or Dark). Use a toggle button to swich between themes.
+2.  Create a `student` table in a **room database** that has the following columns: `Name`, `Year`, `MeanGrade`. Insert a few entries in the database. Display them in the `MainActivity`.
 3.  Write to the internal **app-specific storage** a .txt file that contains a list with all the students sorted alphabetically. 
 4.  Write to the **shared storage** a .txt file that contains a list with all the students sorted by MeanGrade. 
 
