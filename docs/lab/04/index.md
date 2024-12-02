@@ -43,11 +43,11 @@ Android provides several ways to store data, each suitable for different purpose
 
 |     | Type of content | Access method | Permissions needed | Can other apps access? | Files removed on app uninstall? |
 | --- | --- | --- | --- | --- | --- |
-| [App-specific files](/training/data-storage/app-specific) | Files meant for your app's use only | From internal storage, `getFilesDir()` or `getCacheDir()`          From external storage, `getExternalFilesDir()` or `getExternalCacheDir()` | Never needed for internal storage          Not needed for external storage when your app is used on devices that run Android 4.4 (API level 19) or higher | No  | Yes |
-| [Media](/training/data-storage/shared/media) | Shareable media files (images, audio files, videos) | `MediaStore` API | `READ_EXTERNAL_STORAGE` when accessing other apps' files on Android 11 (API level 30) or higher          `READ_EXTERNAL_STORAGE` or `WRITE_EXTERNAL_STORAGE` when accessing other apps' files on Android 10 (API level 29)          Permissions are required for **all** files on Android 9 (API level 28) or lower | Yes, though the other app needs the `READ_EXTERNAL_STORAGE` permission | No  |
-| [Documents and other files](/training/data-storage/shared/documents-files) | Other types of shareable content, including downloaded files | Storage Access Framework | None | Yes, through the system file picker | No  |
-| [App preferences](/training/data-storage/shared-preferences) | Key-value pairs | [Jetpack Preferences](/guide/topics/ui/settings/use-saved-values) library | None | No  | Yes |
-| Database | Structured data | [Room](/training/data-storage/room) persistence library | None | No  | Yes |
+| [App-specific files](https://developer.android.com/training/data-storage/app-specific) | Files meant for your app's use only | From internal storage, `getFilesDir()` or `getCacheDir()`          From external storage, `getExternalFilesDir()` or `getExternalCacheDir()` | Never needed for internal storage          Not needed for external storage when your app is used on devices that run Android 4.4 (API level 19) or higher | No  | Yes |
+| [Media](https://developer.android.com/training/data-storage/shared/media) | Shareable media files (images, audio files, videos) | `MediaStore` API | `READ_EXTERNAL_STORAGE` when accessing other apps' files on Android 11 (API level 30) or higher          `READ_EXTERNAL_STORAGE` or `WRITE_EXTERNAL_STORAGE` when accessing other apps' files on Android 10 (API level 29)          Permissions are required for **all** files on Android 9 (API level 28) or lower | Yes, though the other app needs the `READ_EXTERNAL_STORAGE` permission | No  |
+| [Documents and other files](https://developer.android.com/training/data-storage/shared/documents-files) | Other types of shareable content, including downloaded files | Storage Access Framework | None | Yes, through the system file picker | No  |
+| [App preferences](https://developer.android.com/training/data-storage/shared-preferences) | Key-value pairs | [Jetpack Preferences](https://developer.android.com/develop/ui/views/components/settings/use-saved-values) library | None | No  | Yes |
+| Database | Structured data | [Room](https://developer.android.com/training/data-storage/room) persistence library | None | No  | Yes |
 
 </details>
 
