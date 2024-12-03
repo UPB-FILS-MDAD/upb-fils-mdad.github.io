@@ -185,6 +185,7 @@ Preferences allow you to store private, primitive data (e.g., String, int, boole
 Suitable for lightweight data like user settings, flags, or configuration.
 
 - initializing preferences
+  
   `"AppPrefs"` is the name of the `SharedPreferences` file where data will be stored. If a file with this name doesn't exist, Android creates it.
     Multiple `SharedPreferences` files can exist; the name ensures you’re accessing the correct one.
   `Context.MODE_PRIVATE` defines the access mode for the file. `MODE_PRIVATE` means the file is accessible only to your app.
