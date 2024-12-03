@@ -184,6 +184,22 @@ MediaStore API is used to store and retrieve files while respecting scoped stora
 Preferences allow you to store private, primitive data (e.g., String, int, boolean) in key-value pairs using SharedPreferences.
 Suitable for lightweight data like user settings, flags, or configuration.
 
+- initializing preferences
+  
+  `"AppPrefs"` is the name of the `SharedPreferences` file where data will be stored. If a file with this name doesn't exist, Android creates it.
+    Multiple `SharedPreferences` files can exist; the name ensures you’re accessing the correct one.
+  `Context.MODE_PRIVATE` defines the access mode for the file. `MODE_PRIVATE` means the file is accessible only to your app.
+  ```kotlin
+    private lateinit var sharedPreferences: SharedPreferences
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        
+        sharedPreferences = getSharedPreferences("AppPrefs", Context.MODE_PRIVATE)
+
+        ...
+    }
+  ```
+
 - writing to preferences
     ```kotlin
     fun saveToSharedPreferences(key: String, value: String) {
@@ -193,6 +209,11 @@ Suitable for lightweight data like user settings, flags, or configuration.
         }
     }
     ```
+    :::note
+
+    For other value types you can use `putInt()`  `putBoolean()` etc
+
+    :::
 
 - reading from preferences
     ```kotlin
@@ -200,6 +221,12 @@ Suitable for lightweight data like user settings, flags, or configuration.
         return sharedPreferences.getString(key, "")
     }
     ```
+
+    :::note
+
+    For other value types you can use `getInt()`  `getBoolean()` etc
+    
+    :::
 
 
 ### Databases
