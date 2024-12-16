@@ -187,6 +187,14 @@ In *AndroidManifest.xml*:
 </application>
 ```
 
+:::warning
+
+Beginning with Android 8.0 (API level 26), the system imposes additional restrictions on manifest-declared receivers.
+
+If your app targets Android 8.0 or higher, you cannot use the manifest to declare a receiver for most implicit broadcasts (broadcasts that don't target your app specifically). You can still use a context-registered receiver when the user is actively using your app.
+
+:::
+
 :::note
 
 Static registration cannot be used for custom or app-specific broadcasts when the app is running in the foreground.
@@ -253,11 +261,12 @@ The receiver stops listening when the app or component is destroyed.
 
 Make an app that can:
 
-1. Receive the `android.intent.action.AIRPLANE_MODE` system broadcast using a statically registered broadcast receiver. Display in a Toast massage the state of the airplane mode.
-2. Send a custom explicit broadcast the extras `"Hello from explicit broadcast!"`. And dynamically register a receiver that will display the message in a Toast.
+1. Receive the `android.intent.action.AIRPLANE_MODE` system broadcast using a dynamically registered broadcast receiver. Display in the logs the state of the airplane mode.
+2. Send a custom explicit broadcast the extras `"Hello from explicit broadcast!"`. And statically register a receiver that will display the message in a Toast.
 3. Use an `EditText` + `Button` to send the hash of the input message using an **implicit** broadcast. Make sure to use a separate thread for the message hashing. Add a dynamic broadcast receiver and display the hashed message in a Toast.
 
 :::note 
+
 Use can use this function to hash the message
 
 ```kotlin
